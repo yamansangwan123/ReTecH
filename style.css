@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    background-repeat: none;
+    background: url(assets/bg2.png);
+    background-size: cover;
+    z-index: 1;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+
+
+.container {
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+    position: static;
+    top: 10px;
+}
+
+.buttons {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    text-align: center;
+}
+
+
+.buttons .buttons2 {
+    margin-bottom: 20px;
+}
+
+.buttons2 button {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: rgba(106, 142, 35, 0);
+    padding: 15px;
+    margin: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.4s ease-in-out;
+
+}
+.buttons2 #sign{
+    color: #FE9101;
+}
+.buttons2 #sign:hover{
+    background-color: #FE9101;
+    color: #fff;
+}
+
+
+
+.buttons a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    transition: 0.4s ease-in-out;
+}
+
+.buttons a:hover {
+    color: #FE9101;
+
+}
+
+.buttons2 button:hover {
+    border: 2px solid #FE9101;
+
+}
+
+.container{
+    position: static;
+    
+}
+/* .logos img {
+    position: absolute;
+    width: 25px; 
+    z-index: 4;
+    filter: invert(100%); 
+    opacity: 0.2;
+}
+
+
+#item1 {
+    top: 10%;
+    left: 15%;
+}
+
+#item2 {
+    top: 70%;
+    left: 60%;
+}
+
+#item3 {
+    top: 5%;
+    right: 10%;
+}
+
+#item4 {
+    top: 29%;
+    right: 60%;
+} */
