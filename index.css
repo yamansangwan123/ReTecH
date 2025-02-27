@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-repeat: none;
+    background: url(assets/bg2.png) no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1;
+}
+
+body {
+    font-family: 'Poppins', serif;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+body.fade-out {
+    opacity: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+    position: static;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -5vh; /* Adjust the position of the buttons */
+}
+
+.buttons .buttons2 {
+    margin-bottom: 4vh; /* Increase the gap between the buttons */
+}
+
+.buttons2 a {
+    display: inline-block;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5vw; /* Increase the font size */
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    background-color: rgba(106, 142, 35, 0);
+    padding: 2vh 6vw; /* Increase the padding */
+    margin: 1vh; /* Increase the margin */
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.buttons2 #sign {
+    color: #FE9101;
+}
+
+.buttons2 #sign:hover {
+    background-color: #FE9101;
+    color: #fff;
+}
+
+.buttons a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5vw; /* Increase the font size */
+    transition: 0.4s ease-in-out;
+    margin-top: 2vh; /* Increase the gap between the "Continue as Guest" button and the others */
+}
+
+.buttons a:hover {
+    color: #FE9101;
+}
+
+.buttons2 a:hover {
+    border: 2px solid #FE9101;
+}
+
+.container {
+    position: static;
+}

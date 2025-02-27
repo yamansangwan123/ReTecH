@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', serif;
+    background-color: #172432;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navigation {
+    border-bottom: 2px solid #FE9101;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-image: radial-gradient(#FE9101 0.5px, transparent 0.5px), radial-gradient(#FE9101 0.5px, #172432 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    padding: 1rem;
+}
+
+.logo {
+    margin-right: 2rem;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FE9101;
+    text-decoration: none;
+}
+
+.ops {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ops a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.ops a:hover {
+    color: #FE9101;
+    border-radius: 5px;
+}
+
+.ops #item3 {
+    color: #FE9101;
+}
+
+.ops img {
+    margin-left: 1rem;
+    width: 15px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-container {
+    background: #1c2b38;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #FE9101;
+    font-size: 24px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #2d3e50;
+    color: white;
+}
+
+button {
+    background: #FE9101;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #e57c00;
+}
